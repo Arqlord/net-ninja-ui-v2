@@ -1,0 +1,57 @@
+
+
+.content{
+    padding-top: 10px;
+}
+
+
+    .row {
+        display: block;
+        gap: 10px;
+    }
+
+    :host {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+   
+    .bl-container{
+        overflow: hidden !important;
+        margin: 10px;;
+    }
+
+      .bl-container mat-form-field + mat-form-field, button {
+        margin-left: 8px;
+      }
+
+      .bl-container h1{
+        font-family: 'Arial', sans-serif !important;
+        font-weight: bold;
+        color: #3f51b5;
+      }
+
+      .action{
+        padding: 0px 25px;
+      }
+
+      .title-container {
+        display: flex;
+        align-items: center;
+    }
+    
+    .title-container mat-icon {
+        margin-right: 8px; /* Adjust as needed */
+    }
+
+    .title-container h1{
+      float:right;
+    }
+    
+      
+   
+      
+
+
+      
+ 
